@@ -7,6 +7,7 @@ from .flash_4 import FLASH_4
 from .opamp import OPAMP
 from .pwr import PWR
 from .rcc import RCC
+from .rtc import RTC
 from .syscfg import SYSCFG
 from .vrefbuf import VREF
 
@@ -19,6 +20,7 @@ __all__ = ['COMP',
            'OPAMP',
            'PWR',
            'RCC',
+           'RTC',
            'SYSCFG',
            'VREF',
            ]
